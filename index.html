@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="scripts/parse-1.2.17.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 id="title">Don't get hit from the falling objects</h1>
+        <button id="startBtn">Start</button>
+	    <button id="resetBtn">Reset the Game</button>
+        <div id="game-container">
+            <canvas id="the-canvas" width="800" height="500"></canvas>
+	    </div>
+        <div id="high-score">
+            <h2>High Score</h2>
+            <table id="score-list">
+                <tr id="main-tr">
+                    <th>№</th>
+                    <th>Name</th>
+                    <th>Score</th>
+                </tr>
+            </table>
+            <button id="send-score">Send high score</button>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2014 Nikolay Slavkov</p>
+    </footer>
+    <script src="scripts/fallingDrinks.js"></script>
+    <script src="scripts/renderer.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/main.js"></script>
+    
+</body>
+</html>
